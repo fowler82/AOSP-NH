@@ -30,5 +30,5 @@ debug.atrace.tags.enableflags=0
 #
 # BOOTIMAGE_BUILD_PROPERTIES
 #
-ro.bootimage.build.date=Fri 6 Oct 10:38:27 BST 2017
-ro.bootimage.build.date.utc=1507282707
+ro.bootimage.build.date=lun 9 ott 2017, 21.33.24, CEST
+ro.bootimage.build.date.utc=1507577604

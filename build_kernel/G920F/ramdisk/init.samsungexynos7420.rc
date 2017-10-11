@@ -883,9 +883,6 @@ on property:ro.bootmode=charger
 # EHCI runtime enable for LPA
     write /sys/devices/platform/s5p-ehci/power/control auto
     
-# Change MDNIE mode for vibrant colors
-    write /sys/class/mdnie/mdnie/mode 4
-    
 # Transition to BFQ for UX
 on property:sys.boot_completed=1
     setprop sys.io.scheduler "bfq"
